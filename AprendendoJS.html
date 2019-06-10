@@ -8,12 +8,30 @@
      <script type="text/JavaScript" src = "script.js"></script>
 
     </head>
+
     <body>
+
         <div id="Area">
             Bem Vindo ...
-       </div>
+        </div>
 
        <br/><br/>
-       <button onclick="document.getElementById('Area').innerHTML = prompt('qual o seu nome?');  ">Entrar</button>
+
+       <button onclick="document.getElementById('Area').innerHTML = 'Bem vindo ' + prompt('qual o seu nome?');  ">Entrar</button>
+      
+       <br/><br/>
+        
+       <div id="Area">
+            Qual o Nome do Botão?
+        </div>
+
+       <br/><br/>
+
+       <button onclick= "this.innerHTML= prompt('Qual o Nome do botao?');">Qual o meu Nome? </button>
+      
+
+
+
     </body>
+
 </html>
